@@ -1,0 +1,155 @@
+header {
+	font-family: 'Montserrat', sans-serif;
+	position: relative;
+	background: #000;
+	color: #FFF;
+	padding-bottom: 10px;
+}
+
+p {
+	line-height: 1.5em;
+}
+
+header p {
+	font-size: 12px;
+}
+
+a {
+	color: #0174DF;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+main a {
+	color: blue;
+	text-decoration: none;
+}
+
+h1 {
+	font-size: 3em;
+	font-weight: bold;
+	color: #FFF;
+}
+
+header img {
+	border: 1px solid none;
+	border-radius: 100px;
+}
+
+.tag {
+	font-weight: bold;
+	font-size: 150px;
+}
+
+.jcimg {
+	margin-top: 10px;
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+.jcimg figcaption {
+	font-size: 18px;
+	font-weight: bold;
+	color: #FFF;
+}
+
+.apresentacao {
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	margin-left: 5px;
+	margin-right: 5px;
+	padding: 5px;
+}
+
+.frase {
+	text-align: center;
+	font-weight: bold; 
+}
+
+main {
+	width: 940px;
+	margin: 0 auto;
+	margin-top: 20px;
+	background: #fafafa;
+}
+
+h2 {
+	font-size: 2em;
+	font-weight: bold
+}
+
+.h2s {
+	margin-left: 10px;
+	margin: 20px 0;
+}
+
+.topicos {
+	color: grey;
+}
+
+#maratona {
+	font-family: 'Montserrat', sans-serif;
+}
+
+.maratona p {
+	margin-top: 6em;
+	font-size: 12px;
+	font-family: sans-serif;
+	line-height: 1em;
+}
+
+.timemaratona {
+	margin-top: 10px;
+	float: left;
+}
+
+footer {
+	font-family: 'Montserrat', sans-serif;
+	clear: left;
+	position: relative;
+	background: black;
+}
+
+nav li {
+	display: inline-block;
+}
+
+nav {
+	position: absolute;
+	right: 0;
+	padding-right: 20px;
+	padding-top: 10px;
+}
+
+nav li:hover img {
+	width: 35px;
+	transition: 0.5s all;
+}
+
+.copy {
+	color: #FFF;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px; 
+}
+
+#jc-rodape {
+	border: 2px solid #FFF;
+	border-radius: 100px;
+	color: #FFF;
+	margin-top: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	position: absolute;
+	font-size: 30px;
+}
+#jc-rodape li:hover {
+	border-color: grey;
+	font-size: 35px;
+	color: grey;
+	transition: 0.5s all;
+}
