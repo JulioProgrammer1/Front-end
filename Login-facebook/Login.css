@@ -1,0 +1,148 @@
+body {
+	background-color: #e9ebee;
+}
+
+header {
+	position: relative;
+	background-color: #08298A;
+	height: 85px;
+	width: 100%;
+}
+
+h1 {
+	color: #fff;
+	font-family: sans-serif;
+	font-size: 35px;
+	font-weight: bold;
+	position: absolute;
+	bottom: 15px;
+	right: 77%;
+}
+
+.login {
+	position: absolute;
+	right: 1%;
+	top: 37%;
+}
+
+.input-login {
+	border: 1px solid #000;
+	width: 30%;
+	height: 23px;
+	margin-left: 15px;
+}
+
+form label {
+	color: #fff;
+	font-size: 12px;
+}
+
+#l1, #l2 {
+	position: absolute;
+}
+
+#l1 {
+	bottom: 120%;
+	margin-left: 15px;
+}
+
+#l2 {
+	bottom: 120%;
+	margin-left: 15px;
+}
+
+#entrar {
+	border: 1px solid #000;
+	background: #0404B4;
+	color: #fff;
+	height: 23px;
+	font-weight: bold;
+	margin-left: 15px;
+}
+
+#entrar:hover {
+	background: #08298A;
+}
+
+#contareset {
+	position: absolute;
+	font-size: 12px;
+	color: #D8D8D8;
+	vertical-align: top;
+	right: 15.6em;
+	bottom: 10px;
+}
+
+#contareset:hover {
+	text-decoration: underline;
+}
+
+#cadastre-se {
+	position: relative;
+}
+
+.cadastro {
+	position: absolute;
+	width: 100%;
+	height: 700px;
+	left: 57%;
+}
+
+h2 {
+	font-weight: bold;
+	font-size: 34px;
+	margin: 20px 0;
+	font-family: sans-serif;
+}
+
+.nomes {
+	margin-bottom: 15px;
+}
+
+.input-normal {
+	border: 1px solid white;
+	height: 35px;
+	width: 410px;
+	border-radius: 3px;
+	display: block;
+
+}
+
+.input-padrao {
+	border: 1px solid white;
+	height: 35px;
+	margin-right: 5px;
+	width: 200px;
+	border-radius: 3px;
+}
+
+.data {
+	margin: 15px 0;
+}
+
+fieldset legend {
+	color: #848484;
+	font-weight: bold;
+}
+
+.select {
+	margin-top: 5px;
+	margin-bottom: 10px;
+	margin-right: 5px;
+}
+
+#cadastrar {
+	border-radius: 5px;
+	margin: 20px 0;
+	padding: 8px 0;
+	padding-right: 50px;
+	padding-left: 50px;
+	background: #0B610B;
+	font-weight: bold;
+	font-size: 22px;
+	color: white;
+}
+
+#cadastrar:hover {
+	background: #088A08;
+}
