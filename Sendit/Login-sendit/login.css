@@ -2,7 +2,7 @@ body {
 	background-color: #FF4500;
 }
 
-main {
+.login {
 	position: relative;
 }
 
@@ -16,12 +16,12 @@ h1 {
 
 .login {
 	position: absolute;
+	top: 30%;
+	left: 40%;
 	font-family: sans-serif;
 	background-color: #FFF;
-	margin: 0 auto;
 	width: 320px;
 	right: 400px;
-	margin-top: 130px;
 }
 
 form label{
