@@ -1,9 +1,13 @@
 body {
-	background-color: #FF4500;
+	background-color: rgba(255,40,0,0.8);
 }
 
 .login {
 	position: relative;
+}
+
+h1, h2, h3, h4, h5, h6, label, p {
+	color: rgba(0,0,0,0.8);
 }
 
 h1 {
