@@ -11,6 +11,10 @@ header {
 	background-color: #fff;
 }
 
+.li-menu {
+	font-weight: bold;
+}
+
 .menu img {
 	position: relative;
 	width: 30px;
@@ -36,10 +40,11 @@ nav .li-menu:hover {
 
 nav li:first-child {
 	color: #FF4000;
+	font-weight: bold;
 }
 
 nav li:first-child:hover {
-	border-bottom: 2px solid;
+	border-bottom: 3px solid;
 }
 
 .menu2 {
