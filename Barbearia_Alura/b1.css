@@ -1,0 +1,167 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+
+header {
+	background: #BBB;
+}
+
+.cabecalho {
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+}
+
+header nav {
+	position: absolute;
+	top: 110px;
+	right: 0;
+}
+
+.cabecalho li {
+	display: inline;
+	margin-left: 20px;
+}
+
+nav a {
+	font-size: 22px;
+	color: #000;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+nav li:hover {
+	color: #C78C19;
+	text-decoration: underline;
+}
+
+.banner {
+	width: 100%;
+}
+
+main {
+}
+
+.main {
+	padding: 3em 0;
+	width: 940px;
+	margin: 0 auto;
+	background: #FEFEFE;
+}
+
+.titulo {
+	text-align: center;
+	font-size: 2em;
+	margin-bottom: 1em;
+	clear: left;
+}
+
+.utensilios {
+	width: 120px;
+	float: left;
+	margin: 0 20px 20px 0;
+}
+
+.main p {
+	margin-bottom: 1em;
+}
+
+.main strong {
+	font-weight: bold;
+}
+
+.main em {
+	font-style: italic;
+}
+
+.mapa {
+	padding: 3em 0;
+	background: linear-gradient(#FFF, #888);
+
+}
+
+.mapa-conteudo {
+	width: 940px;
+	margin: 0 auto;
+}
+
+.mapa p {
+	margin-bottom: 2em;
+	text-align: center;
+}
+
+.conteudo-beneficios {
+	width: 640px;
+	margin: 0 auto;
+}
+
+.itens:first-child {
+	font-weight: bold;
+}
+
+.itens:before {
+	content: "⭑";
+}
+
+.beneficios {
+	padding: 3em 0;
+	background: #888;
+}
+
+.ul-beneficios {
+	width: 40%;
+	display: inline-block;
+}
+
+.imagebeneficios {
+	width: 60%;
+	float: right;
+	margin-bottom: 20px;
+	box-shadow: 10px 10px 10px #000;
+}
+
+.imagebeneficios:hover {
+	opacity: 0.3;
+	transition: 400ms;
+}
+
+footer {
+	background-image: url(img/bg.jpg);
+}
+
+.rodape {
+	text-align: center;
+	color: #FFF;
+	padding: 20px 0;
+}
+
+.video {
+	margin: 2em auto;
+	text-align: center;
+	width: 640px;
+	margin: 0 auto;
+	box-shadow: -10px 10px 10px #000;
+}
+
+@media screen and (max-width: 480px) {
+	.cabecalho, .main, .mapa-conteudo, .conteudo-beneficios, .video {
+		width: auto;
+	}
+
+	h1 {
+		text-align: center;
+	}
+
+	header nav {
+		position: static;
+	}
+
+	.ul-beneficios, .imagebeneficios {
+		width: 100%;
+	}
+
+	.cabecalho li {
+		display: block;
+	}
+}

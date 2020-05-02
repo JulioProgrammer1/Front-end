@@ -1,0 +1,109 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+
+header {
+	background: #BBB;
+}
+
+.cabecalho {
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+
+}
+
+nav a:hover {
+	color: #C78C19;
+	text-decoration: underline;
+}
+
+nav {
+	position: absolute;
+	right: 0;
+	top: 110px;
+}
+
+nav li {
+	display: inline-block;
+	margin-left: 20px;
+}
+
+nav a {
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #000;
+	font-size: 22px;
+	font-weight: bold;
+}
+
+main {
+	width: 940px;
+	margin: 0 auto;
+}
+
+form {
+	margin: 40px 0;
+}
+
+form label, form legend {
+	display: block;
+	font-size: 20px;
+	margin-bottom: 20px; 
+}
+
+.input-padrao {
+	display: block;
+	margin-bottom: 20px;
+	padding: 10px 20px;
+	width: 50%;
+}
+
+.checkbox {
+	margin: 20px 0;
+}
+
+#enviar {
+	display: inline-block;
+	font-weight: bold;
+	width: 40%;
+	padding: 15px 0;
+	font-size: 18px;
+	color: #FFF;
+	border: none;
+	border-radius: 5px;
+	background: orange;
+	transition: 0.5s all;
+}
+
+#enviar:hover {
+	background: darkorange;
+	cursor: pointer;
+	transform: scale(1.1);
+
+}
+
+table {
+	margin: 20px 0 40px;
+}
+
+thead {
+	background: #555555;
+	color: #FFF;
+	font-weight: bold;
+}
+
+td, th {
+	border: 1px solid #000;
+	padding: 8px 15px;
+}
+
+footer {
+	background-image: url(img/bg.jpg);
+	text-align: center;
+}
+
+footer p {
+	color: #FFF;
+	padding-bottom: 20px;
+}
