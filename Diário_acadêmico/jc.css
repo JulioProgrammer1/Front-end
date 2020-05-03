@@ -1,4 +1,4 @@
-header {
+.caixa {
 	font-family: 'Montserrat', sans-serif;
 	position: relative;
 	background: #000;
@@ -10,7 +10,7 @@ p {
 	line-height: 1.5em;
 }
 
-header p {
+.caixa p {
 	font-size: 12px;
 }
 
@@ -34,7 +34,7 @@ h1 {
 	color: #FFF;
 }
 
-header img {
+.caixa img {
 	border: 1px solid none;
 	border-radius: 100px;
 }
@@ -96,10 +96,10 @@ h2 {
 }
 
 .maratona p {
-	margin-top: 6em;
+	margin-top: 2em;
 	font-size: 12px;
 	font-family: sans-serif;
-	line-height: 1em;
+	line-height: 2em;
 }
 
 .timemaratona {
@@ -152,4 +152,31 @@ nav li:hover img {
 	font-size: 35px;
 	color: grey;
 	transition: 0.5s all;
+}
+
+@media screen and (max-width: 480px) {
+	p {
+		font-size: 30px;
+	}
+
+	.maratona p {
+		font-size: 25px;
+		line-height: 40px;
+	}
+
+	body {
+		width: 940px;
+	}
+
+	.apresentacao p {
+		font-size: 25px;
+	}
+
+	.caixa h1 {
+		font-size: 70px;
+	}
+
+	.caixa figcaption {
+		font-size: 35px;
+	}
 }
