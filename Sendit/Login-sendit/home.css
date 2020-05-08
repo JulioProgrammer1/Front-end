@@ -68,9 +68,14 @@ nav li:first-child:hover {
 	border-color: black;
 }
 
+a {
+	text-decoration: none;
+}
+
 #sair {
+	display: inline;
 	width: 50px;
-	padding: 3px 0;
+	padding: 5px 10px;
 	font-size: 15px;
 	background: #ff2b56;
 	border: none;

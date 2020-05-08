@@ -2,8 +2,8 @@ body {
 	background-color: rgba(255,40,0,0.8);
 }
 
-.login {
-	position: relative;
+main {
+	width: 940px;
 }
 
 h1, h2, h3, h4, h5, h6, label, p {
@@ -19,13 +19,14 @@ h1 {
 }
 
 .login {
+	position: relative;
 	position: absolute;
-	top: 30%;
-	left: 40%;
+	top: 25%;
+	left: 35%;
 	font-family: sans-serif;
 	background-color: #FFF;
-	width: 320px;
-	right: 400px;
+	width: 360px;
+	height: 310px;
 }
 
 form label{
@@ -43,9 +44,14 @@ form input {
 	padding-right: 80px;
 }
 
+#senha {
+	margin-bottom: 20px;
+}
+
 p {
+	font-size: 15px;
 	margin-left: 35px;
-	padding-top: 15px;
+	padding-top: 20px;
 	padding-bottom: 40px;
 }
 
@@ -63,19 +69,21 @@ p {
 	background-color: #0080FF;
 	color: #FFF;
 	font-weight: bold;
-	margin-top: 10px;
-	margin-left: 135px;
-	padding: 8px 0;
-	padding-left: 10px;
-	padding-right: 10px;
+	margin-left: 39%;
+	padding: 8px 10px;
 	border: none;
 	border-radius: 5px;
 	font-family: sans-serif;
+	display: inline;
 }
 
 #botao:hover {
 	background: #2E64FE;
 	cursor: pointer;
+}
+
+a {
+	text-decoration: none;
 }
 
 #usuario, #senha {
