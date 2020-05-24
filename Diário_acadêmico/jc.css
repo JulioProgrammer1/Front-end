@@ -128,9 +128,12 @@ nav {
 	padding-top: 10px;
 }
 
+nav li img {
+	transition: 0.5s all;
+}
+
 nav li:hover img {
 	width: 35px;
-	transition: 0.5s all;
 }
 
 .copy {
@@ -150,11 +153,15 @@ nav li:hover img {
 	position: absolute;
 	font-size: 30px;
 }
+
+#jc-rodape li {
+	transition: 0.5s all;
+}
+
 #jc-rodape li:hover {
 	border-color: grey;
 	font-size: 35px;
 	color: grey;
-	transition: 0.5s all;
 }
 
 @media screen and (max-width: 480px) {
