@@ -1,0 +1,21 @@
+main h1 {
+    font-weight: cold;
+    font-size: 30px;
+}
+
+main h2 {
+    font-size: 18px;
+}
+
+hgroup {
+    margin: 20px;
+}
+
+.conteudo1 {
+    width: 600px;
+    margin: 0 auto;
+}
+
+.canvas1, .canvas2, .canvas3, .canvas4 {
+    margin: 20px 0;
+}
