@@ -83,3 +83,9 @@ body {
     transition: 1s all;
     background-color: rgba(255,40,0,0.7);
 }
+
+@media screen and ( max-width: 940px ) {
+    .login {
+        width: 90%;
+    }
+}
