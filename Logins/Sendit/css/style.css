@@ -4,27 +4,27 @@ body {
     position: relative;
 }
 
-.mode h2 {
-    color: #fff;
-    padding: 0.1%;
-    font-weight: bold;
-    background: #585858;
-    display: inline;
-    border: 1px #000;
-    border-radius: 5px;
-    position: absolute;
-    bottom: 0;
-}
-
-.mode h2:hover {
-    cursor: pointer;
-}
-
 .login {
     width: 25%;
     margin: 20% auto;
     background: #fff;
     border-radius: 5px;
+    padding: 1%;
+}
+
+.mode h2 {
+    color: #fff;
+    padding: 0.2%;
+    font-weight: bold;
+    background: #585858;
+    display: inline;
+    border: 1px #000;
+    border-radius: 5px;
+}
+
+.mode h2:hover {
+    cursor: pointer;
+    background-color: #848484;
 }
 
 .login h1 {
@@ -72,4 +72,14 @@ body {
 .login strong:hover {
     text-decoration: underline;
     cursor: pointer;
+}
+
+.dark-mode {
+    transition: 1s all;
+    background-color: rgba(0,0,0,0.8);
+}
+
+.ligth-mode {
+    transition: 1s all;
+    background-color: rgba(255,40,0,0.7);
 }
