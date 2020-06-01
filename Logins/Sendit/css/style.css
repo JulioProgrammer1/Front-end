@@ -1,0 +1,75 @@
+body {
+    background-color: rgba(255,40,0,0.7);
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+}
+
+.mode h2 {
+    color: #fff;
+    padding: 0.1%;
+    font-weight: bold;
+    background: #585858;
+    display: inline;
+    border: 1px #000;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+}
+
+.mode h2:hover {
+    cursor: pointer;
+}
+
+.login {
+    width: 25%;
+    margin: 20% auto;
+    background: #fff;
+    border-radius: 5px;
+}
+
+.login h1 {
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+    padding: 1em;
+}
+
+.login label {
+    display: block;
+    font-weight: bold;
+    text-align: center;
+}
+
+.login input {
+    width: 60%;
+    margin: 2% 20%;
+}
+
+.login #botao-login {
+    width: 20%;
+    font-weight: bold;
+    background-color: #2E64FE;
+    color: #fff;
+    margin: 5% 40%;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.login #botao-login:hover {
+    background-color: #0040FF;
+    cursor: pointer;
+}
+
+.login p {
+    text-align: center;
+    padding-bottom: 10%;
+}
+
+.login strong {
+    color: red;
+}
+
+.login strong:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
