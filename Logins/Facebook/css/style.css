@@ -3,7 +3,7 @@ body {
 }
 
 header {
-    background-color: #0B0B61;
+    background-color: #08298A;
     color: #fff;
 }
 
@@ -45,12 +45,12 @@ header .titulo {
 .formulario #botao-entrar {
     border: 1px solid #000;
     color: #fff;
-    background-color: #08088A;
+    background-color: #0431B4;
 }
 
 .formulario #botao-entrar:hover {
     cursor: pointer;
-    background-color: #0B0B61;
+    background-color: #08298A;
 }
 
 .formulario p {
@@ -63,4 +63,67 @@ header .titulo {
 .formulario p:hover {
     cursor: pointer;
     text-decoration: underline;
+}
+
+.cadastro {
+    width: 30%;
+    margin-left: 60%;
+}
+
+.titulo-criar-conta h1 {
+    font-size: 2em;
+}
+
+.titulo-criar-conta h1, h2 {
+    font-family: 'Noto Sans KR', sans-serif;
+    display: inline;
+}
+
+.cadastro form {
+    margin: 5% 0;
+}
+
+.cadastro form input {
+    padding: 1%;
+    margin: 1.5% 0;
+}
+
+.cadastro #nome, #sobrenome {
+    width: 40%;
+}
+
+.cadastro #email, #senha-cadastro {
+    width: 86.5%;
+}
+
+.data-genero h1 {
+    margin: 1% 0;
+    font-weight: bold;
+    color: #6E6E6E;
+}
+
+.data-genero select {
+    margin: 1.5%;
+    border: 1px solid #F2F2F2;
+    padding: 1%;
+}
+
+.data-genero [type="radio"] {
+    margin: 2% 0;
+}
+
+.data-genero #cadastre-se {
+    margin: 2% 0;
+    padding: 2% 10%;
+    font-size: 1.1em;
+    color: #fff;
+    font-weight: bold;
+    display: block;
+    background-color: #0B610B;
+    border: 1px solid none;
+    border-radius: 5px;
+}
+
+.data-genero #cadastre-se:hover {
+    background-color: #088A29;
 }

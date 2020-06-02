@@ -11,6 +11,7 @@
         <link rel="stylesheet" href="css/style.css">
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap" rel="stylesheet">
         <link rel="icon" href="img/facebook-icone-icon.png">
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet"> 
 
     </head>
 
@@ -40,7 +41,48 @@
 
         </header>
 
-        <main></main>
+        <main>
+
+            <section>
+                <div class="cadastro">
+                    <div class="titulo-criar-conta">
+                        <h1>Criar uma nova conta</h1>
+                        <br>
+                        <h2>É rápido e fácil.</h2>
+                    </div>
+                    <form>
+                        <input id="nome" type="text" placeholder="Nome">
+                        <input id="sobrenome" type="text" placeholder="Sobrenome">
+                        <input id="email" type="text" placeholder="Celular ou email">
+                        <input id="senha-cadastro" type="password" placeholder="Nova senha">
+                    </form>
+                    <div class="data-genero">
+                        <h1>Data de nascimento</h1>
+
+                        <select id="dia">
+                            <option>1</option>
+                            <option>2</option>
+                        </select>
+                        <select id="mes">
+                            <option>2</option>
+                            <option>1</option>
+                        </select>
+                        <select id="ano">
+                            <option>2020</option>
+                            <option>2019</option>
+                        </select>
+
+                        <h1>Gênero</h1>
+                        <label><input type="radio" name="genero">Feminino</label>
+                        <label><input type="radio" name="genero">Masculino</label>
+                        <label><input type="radio" name="genero">Personalizado</label>
+                        
+                        <button id="cadastre-se">Cadastre-se</button>
+                    </div>
+                </div>
+            </section>
+
+        </main>
 
     </body>
 
