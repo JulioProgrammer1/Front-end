@@ -1,3 +1,5 @@
+/*Canvas1*/
+
 var tela = document.querySelector(".canvas1");
 var pincel = tela.getContext("2d");
 pincel.fillStyle = "green";
@@ -5,20 +7,7 @@ pincel.fillRect(0,0,200,400);
 pincel.fillStyle = "red";
 pincel.fillRect(400, 0, 200, 400);
 
-/*
-pincel.fillStyle = "yellow";
-pincel.beginPath();
-pincel.moveTo(300, 200);
-pincel.lineTo(200, 400);
-pincel.lineTo(400, 400);
-pincel.fill();
-
-pincel.fillStyle = "blue";
-pincel.beginPath();
-pincel.arc(300, 200, 50, 0, 2 * 3.14);
-pincel.fill();
-*/
-
+/*Canvas2*/
 var tela2 = document.querySelector(".canvas2");
 var pincel2 = tela2.getContext("2d");
 pincel2.fillStyle = "green";
@@ -39,6 +28,7 @@ pincel2.beginPath();
 pincel2.arc(300, 200, 80, 0, 2 * 3.14);
 pincel2.fill();
 
+/*Canvas3*/
 var tela3 = document.querySelector(".canvas3");
 var pincel3 = tela3.getContext("2d");
 pincel3.fillStyle = "#0B610B";
@@ -50,6 +40,7 @@ pincel3.fillRect(235, 190, 130, 100);
 pincel3.fillRect(150, 230, 90, 170);
 pincel3.fillRect(365, 230, 90, 170);
 
+/*Canvas4*/
 var tela4 = document.querySelector(".canvas4");
 var pincel4 = tela4.getContext("2d");
 pincel4.fillStyle = "#000";
@@ -66,6 +57,7 @@ pincel4.lineTo(60, 530);
 pincel4.lineTo(450, 530);
 pincel4.fill();
 
+/*Canvas5*/
 var quadrado = document.querySelector(".canvas5");
 var pincel5 = quadrado.getContext("2d");
 
@@ -94,6 +86,7 @@ while ( true ) {
     }
 }
 
+/*Canvas6*/
 var tela5 = document.querySelector(".canvas6");
 var pincel6 =  tela5.getContext("2d");
 
@@ -137,6 +130,7 @@ for ( var i = 0; i <= 5; i++ ) {
     }
 }
 
+/*Canvas7*/
 var grafico = document.querySelector(".canvas7");
 var pincel6 = grafico.getContext("2d");
 
@@ -169,6 +163,7 @@ for ( var i = 0; i <= 3; i++ ) {
 
 function esquadro(x,y,x1,y1) {
 
+/*Canvas8*/
 var tela6 = document.querySelector(".canvas8");
 var pincel7 = tela6.getContext("2d");
 pincel7.fillStyle = "#000";
@@ -188,3 +183,24 @@ pincel7.fill();
 }
 
 esquadro(100 , 500, 300, 400);
+
+/*Canvas9*/
+var tela7 = document.querySelector(".canvas9");
+var pincel8 = tela7.getContext("2d");
+
+pincel8.fillStyle = "blue";
+pincel8.fillRect(0,0,600,400);
+
+function alerta( evento ) {
+    var x = evento.pageX - tela7.offsetLeft;
+    var y = evento.pageY - tela7.offsetTop;
+
+    pincel8.beginPath();
+    pincel8.fillStyle = "yellow";
+    pincel8.arc(x, y, 10, 0 , 2*3.14);
+    pincel8.fill();
+
+    console.log(x + "," + y);
+}
+
+tela7.onclick = alerta;
