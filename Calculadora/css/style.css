@@ -1,0 +1,65 @@
+body {
+    background-color: #E6E6E6;
+    opacity: 0.9;
+}
+
+.container {
+    position: relative;
+    background-color: #1C1C1C;
+    width: 20%;
+    margin: 10% auto;
+    border: 1px solid #888;
+    border-radius: 10px;
+}
+
+.container input {
+    background-color: #E0F2F7;
+    border: 1px solid #fff;
+    padding: 5%;
+    margin: 5% 5%;
+    width: 80%;
+}
+
+.botoes {
+    width: 60%;
+    margin: 5%;
+}
+
+.botoes button {
+    padding: 5% 8%;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.botoes #igual, #zero {
+    padding: 1% 15%;
+}
+
+.botoes #igual {
+    background-color: #0B610B;
+    color: #fff;
+    border: 1px solid #888;
+    border-radius: 5px;
+    font-size: 1.3em;
+    padding: 2% 20%;
+}
+
+.operacoes {
+    position: absolute;
+    top: 24%;
+    right: 0;
+    width: 25%;
+}
+
+.operacoes button {
+    background-color: #0B0B61;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 0.8em;
+    margin: 6%;
+    width: 90%;
+}
+
+.operacoes #limpar {
+    background-color: #B40404;
+}
