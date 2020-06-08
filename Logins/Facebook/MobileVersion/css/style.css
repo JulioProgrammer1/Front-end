@@ -1,0 +1,103 @@
+body {
+    width: 25%;
+    background-color: #F2EFFB;
+    margin: 5% auto;
+    opacity: 0.8;
+    border: 3px solid #ddd;
+    border-radius: 5px;
+}
+
+header {
+    margin-top: 2%;
+}
+
+.cabecalho {
+    background-color: #08298A;
+    color: #fff;
+    width: 85%;
+    margin: 0 auto;
+}
+
+.cabecalho h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 1.2em;
+    text-align: center;
+    padding: 5%;
+}
+
+.cabecalho .anuncioMobile {
+    background-color: #F5F6CE;
+    padding: 2%;
+}
+
+.cabecalho .anuncioMobile p {
+    color: #0B0B61;
+    font-size: 0.8em;
+}
+
+.cabecalho .anuncioMobile p:before {
+    content: "📱 ";
+}
+
+.formulario {
+    width: 85%;
+    margin: 1% auto;
+}
+
+.formulario input {
+    width: 85%;
+    margin: 0 3%;
+    padding: 4%;
+    background-color: #F2F2F2;
+    border: 1px solid #fff;
+    border-radius: 5px;
+}
+
+.formulario #entrar {
+    width: 93%;
+    margin: 1% 3%;
+    padding: 2% 0;
+    color: #fff;
+    font-weight: bold;
+    background-color: #0040FF;
+    border: 1px solid #fff;
+    border-radius: 5px;
+}
+
+.cadastro {
+    width: 85%;
+    margin: 1% auto;
+}
+
+.cadastro p {
+    text-align: center;
+    font-size: 0.8em;
+}
+
+.cadastro #ou:before {
+    content: "____________ ";
+}
+
+.cadastro #ou:after {
+    content: " ____________";
+}
+
+.cadastro #novaConta {
+    width: 45%;
+    margin: 5% 28%;
+    padding: 2% 0;
+    font-weight: bold;
+    color: #fff;
+    background-color: #088A08;
+    border: 1px solid #fff;
+    border-radius: 5px; 
+}
+
+.cadastro a {
+    text-decoration: none;
+}
+
+.cadastro {
+    margin-bottom: 40%;
+}
